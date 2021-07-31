@@ -1,0 +1,157 @@
+2021-07-31 00:03:57.600  INFO 18748 --- [main] c.i.e_diary.EDiaryApplication            : Starting EDiaryApplication using Java 15.0.2 on DESKTOP-GD410S4 with PID 18748 (C:\Users\Jelena\eclipse-workspace-backend\EDiary\target\classes started by Jelena in C:\Users\Jelena\eclipse-workspace-backend\EDiary)
+2021-07-31 00:03:57.605  INFO 18748 --- [main] c.i.e_diary.EDiaryApplication            : No active profile set, falling back to default profiles: default
+2021-07-31 00:03:58.161  INFO 18748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-31 00:03:58.231  INFO 18748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 11 JPA repository interfaces.
+2021-07-31 00:03:58.475  INFO 18748 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@51d719bc' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 00:03:58.480  INFO 18748 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 00:03:58.649  INFO 18748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-31 00:03:58.657  INFO 18748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-31 00:03:58.658  INFO 18748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-31 00:03:58.750  INFO 18748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-31 00:03:58.750  INFO 18748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1108 ms
+2021-07-31 00:03:59.104  INFO 18748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-31 00:03:59.384  INFO 18748 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-31 00:04:00.297  INFO 18748 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 00:04:00.749  WARN 18748 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-31 00:04:00.983  INFO 18748 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d009b308-1a22-4cd7-ac19-dff66f316458
+
+2021-07-31 00:04:01.075  INFO 18748 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48cc060d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ded31cc, org.springframework.security.web.header.HeaderWriterFilter@ccea4be, org.springframework.security.web.authentication.logout.LogoutFilter@39ee07a9, com.iktakademija.e_diary.config.JWTAuthorizationFilter@65dafe50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fb2b972, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ca564aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29b2a94c, org.springframework.security.web.session.SessionManagementFilter@12a7515b, org.springframework.security.web.access.ExceptionTranslationFilter@452d6fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31c31fa6]
+2021-07-31 00:04:01.404  INFO 18748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-31 00:04:01.412  INFO 18748 --- [main] c.i.e_diary.EDiaryApplication            : Started EDiaryApplication in 4.129 seconds (JVM running for 4.76)
+2021-07-31 00:04:09.843  INFO 18748 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-31 00:04:09.845  INFO 18748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-31 00:04:09.848  INFO 18748 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-07-31 00:04:16.364  INFO 18748 --- [http-nio-8080-exec-3] c.i.e_diary.controllers.LoginController  : Token created
+2021-07-31 00:19:48.958  INFO 18748 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-31 00:19:48.988  INFO 18748 --- [RMI TCP Connection(24)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 00:19:48.991  INFO 18748 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-31 00:19:49.000  INFO 18748 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-31 00:19:53.407  INFO 6628 --- [main] c.i.e_diary.EDiaryApplication            : Starting EDiaryApplication using Java 15.0.2 on DESKTOP-GD410S4 with PID 6628 (C:\Users\Jelena\eclipse-workspace-backend\EDiary\target\classes started by Jelena in C:\Users\Jelena\eclipse-workspace-backend\EDiary)
+2021-07-31 00:19:53.409  INFO 6628 --- [main] c.i.e_diary.EDiaryApplication            : No active profile set, falling back to default profiles: default
+2021-07-31 00:19:53.951  INFO 6628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-31 00:19:54.026  INFO 6628 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 11 JPA repository interfaces.
+2021-07-31 00:19:54.275  INFO 6628 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@22a10ac6' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 00:19:54.280  INFO 6628 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 00:19:54.445  INFO 6628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-31 00:19:54.453  INFO 6628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-31 00:19:54.455  INFO 6628 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-31 00:19:54.545  INFO 6628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-31 00:19:54.545  INFO 6628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1106 ms
+2021-07-31 00:19:54.885  INFO 6628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-31 00:19:55.159  INFO 6628 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-31 00:19:56.020  INFO 6628 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 00:19:56.460  WARN 6628 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-31 00:19:56.678  INFO 6628 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e7ad1537-eea7-4a5e-b12f-b9681fba73a3
+
+2021-07-31 00:19:56.748  INFO 6628 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@396f3bf2, org.springframework.security.web.context.SecurityContextPersistenceFilter@28b286c0, org.springframework.security.web.header.HeaderWriterFilter@1a4c6e74, org.springframework.security.web.authentication.logout.LogoutFilter@4199761d, com.iktakademija.e_diary.config.JWTAuthorizationFilter@70fcd3e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b5e45bc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c3400df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@701bd6e8, org.springframework.security.web.session.SessionManagementFilter@28705150, org.springframework.security.web.access.ExceptionTranslationFilter@6cb2b947, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7164e54]
+2021-07-31 00:19:57.029  INFO 6628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-31 00:19:57.038  INFO 6628 --- [main] c.i.e_diary.EDiaryApplication            : Started EDiaryApplication in 3.934 seconds (JVM running for 4.537)
+2021-07-31 00:20:05.171  INFO 6628 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-31 00:20:05.173  INFO 6628 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-31 00:20:05.174  INFO 6628 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-07-31 00:20:05.427  INFO 6628 --- [http-nio-8080-exec-2] c.i.e_diary.controllers.LoginController  : User successfully logged in
+2021-07-31 00:20:22.063  INFO 6628 --- [http-nio-8080-exec-3] c.i.e_diary.controllers.MarkController   : Teacher Tomislav Tomanic saw all marks for his subject
+2021-07-31 00:20:33.599  INFO 6628 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-31 00:20:33.646  INFO 6628 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 00:20:33.649  INFO 6628 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-31 00:20:33.656  INFO 6628 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-31 09:45:00.811  INFO 13632 --- [main] c.i.e_diary.EDiaryApplication            : Starting EDiaryApplication using Java 15.0.2 on DESKTOP-GD410S4 with PID 13632 (C:\Users\Jelena\eclipse-workspace-backend\EDiary\target\classes started by Jelena in C:\Users\Jelena\eclipse-workspace-backend\EDiary)
+2021-07-31 09:45:00.815  INFO 13632 --- [main] c.i.e_diary.EDiaryApplication            : No active profile set, falling back to default profiles: default
+2021-07-31 09:45:01.665  INFO 13632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-31 09:45:01.748  INFO 13632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 11 JPA repository interfaces.
+2021-07-31 09:45:02.074  INFO 13632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@12fe1f28' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 09:45:02.079  INFO 13632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 09:45:02.356  INFO 13632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-31 09:45:02.368  INFO 13632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-31 09:45:02.372  INFO 13632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-31 09:45:02.514  INFO 13632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-31 09:45:02.514  INFO 13632 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1655 ms
+2021-07-31 09:45:03.012  INFO 13632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-31 09:45:03.411  INFO 13632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-31 09:45:04.560  INFO 13632 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 09:45:05.182  WARN 13632 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-31 09:45:05.460  INFO 13632 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 201a9cb3-dd4e-45a9-bd91-8ad24e3eb7c5
+
+2021-07-31 09:45:05.548  INFO 13632 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ff40324, org.springframework.security.web.context.SecurityContextPersistenceFilter@29f86630, org.springframework.security.web.header.HeaderWriterFilter@15251cc2, org.springframework.security.web.authentication.logout.LogoutFilter@2ded31cc, com.iktakademija.e_diary.config.JWTAuthorizationFilter@3a22d69f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c51fc9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@718e700c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7164e54, org.springframework.security.web.session.SessionManagementFilter@6715a6da, org.springframework.security.web.access.ExceptionTranslationFilter@1a865ebf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a9a6a0c]
+2021-07-31 09:45:05.883  INFO 13632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-31 09:45:05.894  INFO 13632 --- [main] c.i.e_diary.EDiaryApplication            : Started EDiaryApplication in 5.496 seconds (JVM running for 6.343)
+2021-07-31 09:45:19.058  INFO 13632 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-31 09:45:19.060  INFO 13632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-31 09:45:19.061  INFO 13632 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-07-31 09:45:19.370  INFO 13632 --- [http-nio-8080-exec-2] c.i.e_diary.controllers.LoginController  : User successfully logged in
+2021-07-31 09:45:47.309  INFO 13632 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-31 09:45:47.350  INFO 13632 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 09:45:47.353  INFO 13632 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-31 09:45:47.366  INFO 13632 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-31 10:48:09.185  INFO 17320 --- [main] c.i.e_diary.EDiaryApplication            : Starting EDiaryApplication using Java 15.0.2 on DESKTOP-GD410S4 with PID 17320 (C:\Users\Jelena\eclipse-workspace-backend\EDiary\target\classes started by Jelena in C:\Users\Jelena\eclipse-workspace-backend\EDiary)
+2021-07-31 10:48:09.190  INFO 17320 --- [main] c.i.e_diary.EDiaryApplication            : No active profile set, falling back to default profiles: default
+2021-07-31 10:48:10.171  INFO 17320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-31 10:48:10.304  INFO 17320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123 ms. Found 11 JPA repository interfaces.
+2021-07-31 10:48:10.874  INFO 17320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5c83ae01' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 10:48:10.878  INFO 17320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 10:48:11.111  INFO 17320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-31 10:48:11.132  INFO 17320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-31 10:48:11.135  INFO 17320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-31 10:48:11.263  INFO 17320 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-31 10:48:11.265  INFO 17320 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2007 ms
+2021-07-31 10:48:11.851  INFO 17320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-31 10:48:12.275  INFO 17320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-31 10:48:13.344  INFO 17320 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 10:48:13.884  WARN 17320 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-31 10:48:14.162  INFO 17320 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c3d1ed8f-1fab-484e-b7f5-66b13f22627b
+
+2021-07-31 10:48:14.236  INFO 17320 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70fcd3e5, org.springframework.security.web.context.SecurityContextPersistenceFilter@718e700c, org.springframework.security.web.header.HeaderWriterFilter@28d728f1, org.springframework.security.web.authentication.logout.LogoutFilter@3ca564aa, com.iktakademija.e_diary.config.JWTAuthorizationFilter@701bd6e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10c1682b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7be9e9fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9da386c, org.springframework.security.web.session.SessionManagementFilter@6b44121e, org.springframework.security.web.access.ExceptionTranslationFilter@40ef385f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f36cd8f]
+2021-07-31 10:48:14.574  INFO 17320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-31 10:48:14.585  INFO 17320 --- [main] c.i.e_diary.EDiaryApplication            : Started EDiaryApplication in 6.053 seconds (JVM running for 6.885)
+2021-07-31 10:48:25.247  INFO 17320 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-31 10:48:25.250  INFO 17320 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-31 10:48:25.254  INFO 17320 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-07-31 10:48:25.581  INFO 17320 --- [http-nio-8080-exec-2] c.i.e_diary.controllers.LoginController  : User successfully logged in
+2021-07-31 10:48:47.674  INFO 17320 --- [http-nio-8080-exec-5] c.i.e.controllers.TeacherController      : New teacher is added - id: 22, Jovana Jovanic
+2021-07-31 10:49:46.105 ERROR 17320 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`db_school`.`teacher_department_subject`, CONSTRAINT `FKap2t77193vqspix5wl1dqdhjg` FOREIGN KEY (`teacher`) REFERENCES `teacher` (`user_id`))
+2021-07-31 10:49:46.124 ERROR 17320 --- [http-nio-8080-exec-7] c.i.e.controllers.TeacherController      : Exception executing TeacherController.deleteTeacherById, could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-07-31 10:49:58.669  INFO 17320 --- [http-nio-8080-exec-9] c.i.e.controllers.TeacherController      : Teacher is deleted - id: 22, Jovana Jovanic
+2021-07-31 11:10:16.449  INFO 17320 --- [RMI TCP Connection(29)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-31 11:10:16.494  INFO 17320 --- [RMI TCP Connection(29)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 11:10:16.502  INFO 17320 --- [RMI TCP Connection(29)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-31 11:10:16.520  INFO 17320 --- [RMI TCP Connection(29)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-31 17:08:34.970  INFO 23644 --- [main] c.i.e_diary.EDiaryApplication            : Starting EDiaryApplication using Java 15.0.2 on DESKTOP-GD410S4 with PID 23644 (C:\Users\Jelena\eclipse-workspace-backend\EDiary\target\classes started by Jelena in C:\Users\Jelena\eclipse-workspace-backend\EDiary)
+2021-07-31 17:08:34.974  INFO 23644 --- [main] c.i.e_diary.EDiaryApplication            : No active profile set, falling back to default profiles: default
+2021-07-31 17:08:36.421  INFO 23644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-31 17:08:36.621  INFO 23644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 181 ms. Found 11 JPA repository interfaces.
+2021-07-31 17:08:37.208  INFO 23644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@650ae78c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 17:08:37.217  INFO 23644 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-31 17:08:37.659  INFO 23644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-31 17:08:37.681  INFO 23644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-31 17:08:37.687  INFO 23644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-31 17:08:37.920  INFO 23644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-31 17:08:37.924  INFO 23644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2876 ms
+2021-07-31 17:08:38.872  INFO 23644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-31 17:08:39.679  INFO 23644 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-31 17:08:41.864  INFO 23644 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 17:08:42.993  WARN 23644 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-31 17:08:44.000  INFO 23644 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 44623543-8cb5-450e-9d9c-088b066f7b2f
+
+2021-07-31 17:08:44.199  INFO 23644 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7164e54, org.springframework.security.web.context.SecurityContextPersistenceFilter@28705150, org.springframework.security.web.header.HeaderWriterFilter@6cb2b947, org.springframework.security.web.authentication.logout.LogoutFilter@44f88149, com.iktakademija.e_diary.config.JWTAuthorizationFilter@7f36cd8f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28b286c0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e7563f6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20040c6e, org.springframework.security.web.session.SessionManagementFilter@4c51fc9a, org.springframework.security.web.access.ExceptionTranslationFilter@53813f01, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77f95e19]
+2021-07-31 17:08:44.873  INFO 23644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-31 17:08:44.893  INFO 23644 --- [main] c.i.e_diary.EDiaryApplication            : Started EDiaryApplication in 10.701 seconds (JVM running for 12.823)
+2021-07-31 17:09:21.599  INFO 23644 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-31 17:09:21.605  INFO 23644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-31 17:09:21.609  INFO 23644 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-07-31 17:09:22.408  INFO 23644 --- [http-nio-8080-exec-2] c.i.e_diary.controllers.LoginController  : User successfully logged in
+2021-07-31 17:09:50.530 ERROR 23644 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`db_school`.`teacher_department_subject`, CONSTRAINT `FKap2t77193vqspix5wl1dqdhjg` FOREIGN KEY (`teacher`) REFERENCES `teacher` (`user_id`))
+2021-07-31 17:09:50.555 ERROR 23644 --- [http-nio-8080-exec-4] c.i.e.controllers.TeacherController      : Exception executing TeacherController.deleteTeacherById, could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-07-31 17:10:22.558  INFO 23644 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-31 17:10:22.627  INFO 23644 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-31 17:10:22.636  INFO 23644 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-31 17:10:22.658  INFO 23644 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
